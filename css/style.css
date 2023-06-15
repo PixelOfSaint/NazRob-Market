@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+*{ 
+    font-family: 'Ubuntu';
+}
+.container{
+    margin: auto;
+max-width: 1440px;
+}
+/* HEADER */
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header-menu:hover{
+color: black;
+}
+.header-menu-text{
+    color: rgb(77, 69, 69);
+    font-weight: 600;
+    font-size: 25px;
+    text-decoration: none;
+}
+.button-header{
+    background-color: rgb(54, 50, 50);
+    color: white;
+    border-radius: 4px;
+    border: none;
+    padding:10px 37px;
+column-gap: 30px;
+ display: flex;
+ box-shadow: 0 3px 10px rgb(145, 147, 137);
+}
+.icon1{
+    margin-top: 10px;
+    
+}
+.icon2{
+    margin-top: 5px;
+}
+
+.button-header-text{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size:30px;
+}
+.button-header:hover{
+    background-color: rgb(41, 41, 41);
+}
+.search-header{
+    background-color: rgb(116, 110, 110);
+    border-radius: 4px;
+    padding: 10px 25px;
+    box-shadow: 0 3px 10px rgb(145, 147, 137);
+display: flex;
+column-gap: 20px;
+
+}
+.search-header-text{
+    color: white;
+    font-weight: 400;
+
+}
+@media only screen and (max-width: 752px) {
+  .header{
+    display: grid;
+    text-align: center;
+    
+  }
+  }
+  @media only screen and (max-width: 891px) {
+    .header{
+      /* display: grid;
+      text-align: center; */
+      column-gap: 30px;
+    }
+    }
+  @media only screen and (max-width: 149px) {
+    .header{
+      display: grid;
+      text-align: center;
+    }
+
+    .button-header{
+      padding:0 9px ;
+    }
+    }
